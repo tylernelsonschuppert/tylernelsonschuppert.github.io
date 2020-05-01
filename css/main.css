@@ -107,7 +107,7 @@ div.experiencediv {
 h3.bodyblackheader {
     font-size: 14pt;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     margin-left: 0px;
     margin-right: 0px;
     font-weight: normal;
@@ -124,7 +124,7 @@ h3.bodyblackheader {
 ul.bodylist {
     list-style-type: disc;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 18px;
     margin-right: 0px;
     padding: 0;
@@ -143,10 +143,16 @@ ul.bodylistindented {
     font-weight: 400;
 }
 
-li.experience {
-    padding-bottom: 10px;
+li {
+        padding-bottom: 15px;
+        line-height: 1.4em;
 }
-
+/*
+li.experience {
+    padding-bottom: 15px;
+    line-height: 1.4em;
+}
+*/
 .education {
     background-color: #1b2027;
 }
@@ -157,11 +163,11 @@ div.educationdiv {
     padding: 15px;
     margin-bottom: 20px;
 }
-
+/*
 li.education {
     padding-bottom: 10px;
 }
-
+*/
 .certifications {
     background-color: #1A1A1F;
 }
