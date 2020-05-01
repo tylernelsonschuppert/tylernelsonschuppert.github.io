@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body {
+    color: white;
+    background-color: #1A1A1F;
+    font-family: "Cormorant Garamond";
+    min-width: 380px;
+}
+.navbar {
+    background:#1A1A1F;
+    color: white;
+    font-family: "Pathway Gothic One";
+    min-width: 380px;
+}
+.nav-link, .navbar-brand {
+    color: white;
+    cursor: pointer;
+    font-family: "Pathway Gothic One";
+    text-transform: uppercase;
+}
+.nav-link {
+    margin-right: 1em !important;
+    font-size: 16pt;
+}
+
+.navbar-brand {
+    font-size: 24pt;
+    line-height: 28px;
+}
+.navbar-brand small {
+    display: block;
+    font-size: 16pt;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: white;
+    border-width: 3px;
+}
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+
+main {
+    padding-top: 82px;
+}
+
+h2.rowlabel {
+    font-size: 16pt;
+    font-family: "Pathway Gothic One";
+    text-transform: uppercase;
+    color: white;
+    background-color: #1A1A1F;
+    border-radius: 5px;
+    box-shadow: -1px -1px .5px #6d6d6d;
+    padding: 10px;
+    display: inline-block;
+    margin: 10px 10px 10px 0px;
+}
+
+.about {
+    background-color: #005291;
+}
+
+p.about {
+    margin: 0px 15px 0px 15px;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
+}
+
+.skills {
+    background-color: #2D333B;
+}
+
+table.skills {
+    margin: 0px 15px 0px 11px;
+    font-size: 12pt;
+    padding: 10px 15px 10px 15px;
+    display: inline-block;
+    border-collapse: separate; 
+}
+
+td {
+    padding-right: 50px;
+}
+
+li.skills {
+    padding-bottom: 10px;
+}
+
+.experience {
+    background-color: #222831;
+}
+
+div.experiencediv {
+    font-size: 12pt;
+    box-shadow: 1px 1px 5px #888888;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h3.bodyblackheader {
+    font-size: 14pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: normal;
+}
+
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+ul.bodylist {
+    list-style-type: disc;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 18px;
+    margin-right: 0px;
+    padding: 0;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+ul.bodylistindented {
+    list-style-type: disc;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    margin-right: 0px;
+    padding: 0;
+    font-size: 12pt;
+    font-weight: 400;
+}
+
+li.experience {
+    padding-bottom: 10px;
+}
+
+.education {
+    background-color: #1b2027;
+}
+
+div.educationdiv {
+    font-size: 12pt;
+    box-shadow: 1px 1px 5px #888888;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+li.education {
+    padding-bottom: 10px;
+}
+
+.certifications {
+    background-color: #1A1A1F;
+}
+
+div.certificationsdiv {
+    font-size: 12pt;
+    box-shadow: 1px 1px 5px #888888;
+    padding: 15px;
+    margin-bottom: 20px;
+}
