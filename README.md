@@ -1,1 +1,0 @@
-# tylernelsonschuppert.github.io
