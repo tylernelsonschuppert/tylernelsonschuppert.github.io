@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
     color: white;
@@ -73,11 +74,19 @@ h2.rowlabel {
     /*background-color: #005291;*/
 }
 
+div.about {
+    min-height: calc(100vh - 79px);
+}
+
 p.about {
-    color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 2em;
     font-style: italic;
+    position: absolute;
+    bottom: 32%;
 }
 
 .skills {
