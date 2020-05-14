@@ -8,6 +8,23 @@ body {
     font-family: "Cormorant Garamond";
     min-width: 380px;
 }
+
+body:after{
+    content:"";
+    position:fixed; /* stretch a fixed position to the whole screen */
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url(../mountains2.jpeg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
 .navbar {
     background:#1A1A1F;
     color: white;
@@ -49,12 +66,13 @@ body {
 
 main {
     padding-top: 82px;
+    /*
     background-image: url("../mountains2.jpeg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #1A1A1F;
+    background-color: #1A1A1F;*/
 }
 
 h2.rowlabel {
@@ -194,3 +212,4 @@ div.certificationsdiv {
     margin-bottom: 20px;
     border-radius: 5px;
 }
+
