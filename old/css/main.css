@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
     color: white;
@@ -8,23 +7,6 @@ body {
     font-family: "Cormorant Garamond";
     min-width: 380px;
 }
-
-body:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen */
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url(../mountains2.jpeg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
 .navbar {
     background:#1A1A1F;
     color: white;
@@ -61,18 +43,11 @@ body:after{
 }
 
 .custom-toggler .navbar-toggler-icon { 
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
 
 main {
     padding-top: 82px;
-    /*
-    background-image: url("../mountains2.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #1A1A1F;*/
 }
 
 h2.rowlabel {
@@ -89,38 +64,26 @@ h2.rowlabel {
 }
 
 .about {
-    /*background-color: #005291;*/
-}
-
-div.about {
-    min-height: calc(100vh - 79px);
+    background-color: #005291;
 }
 
 p.about {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 2em;
-    font-style: italic;
-    position: absolute;
-    bottom: 32%;
+    margin: 0px 15px 0px 15px;
+    padding: 15px 15px 15px 15px;
+    display: inline-block;
 }
 
 .skills {
-    /*background-color: #2D333B;*/
+    background-color: #2D333B;
 }
 
 table.skills {
-    padding: 15px;
-    margin-bottom: 14px;
+    margin: 0px 15px 0px 11px;
     font-size: 12pt;
+    padding: 10px 15px 10px 15px;
     display: inline-block;
     border-spacing: 0px;
     border-collapse: separate; 
-    border-radius: 5px;
-    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;
 }
 
 td {
@@ -132,14 +95,12 @@ li.skills {
 }
 
 .experience {
-    /*background-color: #222831;*/
+    background-color: #222831;
 }
 
 div.experiencediv {
     font-size: 12pt;
-    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;
-    border-radius: 5px;
+    box-shadow: 1px 1px 5px #888888;
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -188,28 +149,23 @@ li {
         line-height: 1.4em;
 }
 .education {
-    /*background-color: #1b2027;*/
+    background-color: #1b2027;
 }
 
 div.educationdiv {
     font-size: 12pt;
-    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;
+    box-shadow: 1px 1px 5px #888888;
     padding: 15px;
     margin-bottom: 20px;
-    border-radius: 5px;
 }
 
 .certifications {
-    /*background-color: #1A1A1F;*/
+    background-color: #1A1A1F;
 }
 
 div.certificationsdiv {
     font-size: 12pt;
-    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;
+    box-shadow: 1px 1px 5px #888888;
     padding: 15px;
     margin-bottom: 20px;
-    border-radius: 5px;
 }
-
