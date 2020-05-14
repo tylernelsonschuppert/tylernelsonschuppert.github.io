@@ -65,6 +65,7 @@ h2.rowlabel {
 
 .about {
     background-color: #005291;
+    margin-bottom: 20px;
 }
 
 p.about {
@@ -75,6 +76,7 @@ p.about {
 
 .skills {
     background-color: #2D333B;
+    margin-bottom: 20px;
 }
 
 table.skills {
@@ -149,7 +151,7 @@ li {
         line-height: 1.4em;
 }
 .education {
-    background-color: #1b2027;
+    background-color: #222831;
 }
 
 div.educationdiv {
@@ -160,7 +162,7 @@ div.educationdiv {
 }
 
 .certifications {
-    background-color: #1A1A1F;
+    background-color: #222831;
 }
 
 div.certificationsdiv {
@@ -168,4 +170,9 @@ div.certificationsdiv {
     box-shadow: 1px 1px 5px #888888;
     padding: 15px;
     margin-bottom: 20px;
+}
+
+.bodywrapper {
+    width: 98%;
+    margin: 0 auto;
 }
