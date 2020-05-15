@@ -16,57 +16,65 @@
         </script>
         <!--End Google Analytics Tags-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/dbd941bf7c.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <title>Tyler Nelson-Schuppert</title>
     </head>
     <body>
         <!-- Start Navbar -->
-        <header>
-            <nav class="navbar navbar-expand-lg fixed-top">  
-                <a class="navbar-brand" href="#">TYLER NELSON-SCHUPPERT<small>Systems Architect. Software Engineer.</small></a>
-                <button class="navbar-toggler ml-auto custom-toggler" id="navbar_button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>    
-                        </li>
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="#experience">Experience</a>
-                        </li>
-                        <li class="nav-item">  
-                            <a class="nav-link" href="#education">Education</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="#certifications">Certifications</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="https://www.github.com/tylernelsonschuppert/" target="_blank">GitHub</a>
-                        </li>
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="https://www.linkedin.com/in/tylernelsonschuppert/" target="_blank">LinkedIn</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+        <a id="about">
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top">  
+                    <a class="navbar-brand" href="#">TYLER NELSON-SCHUPPERT<small>Systems Architect. Software Engineer.</small></a>
+                    <button class="navbar-toggler ml-auto custom-toggler" id="navbar_button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>    
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link" href="#experience">Experience</a>
+                            </li>
+                            <li class="nav-item">  
+                                <a class="nav-link" href="#education">Education</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link" href="#certifications">Certifications</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link" href="https://www.github.com/tylernelsonschuppert/" target="_blank">GitHub</a>
+                            </li>
+                            <li class="nav-item"> 
+                                <a class="nav-link" href="https://www.linkedin.com/in/tylernelsonschuppert/" target="_blank">LinkedIn</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+        </a>
         <!--End Navbar-->
         <!--Start Main Content Rows-->
         <main>
-            <!--Start About-->
-            <a id="about">
-                <div class="container-fluid" style="padding-top: 82px; margin-top: -82px;">
-                    <div class="about row">
-                        <div class="col-md-12 d-flex justify-content-center align-items-center">
-                            <p class="about">Through Technology, human potential is limitless.</p>
+            <!--Start Headline-->
+            <div class="container-fluid" style="padding-top: 82px; margin-top: -82px;">
+                <div id="headlinediv" class="row">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center">
+                        <div class="headline">
+                            <p id="headlineparagraph">Through Technology, human potential is limitless.</p>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <a href="#skills" style="color: white;">
+                                    <i class="fa fa-arrow-circle-down downarrow"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
             <!--End About-->
             <!--Start Skills-->
             <a id="skills">
@@ -320,7 +328,6 @@
         <!--End Main Content Rows-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
         <script src="./js/navbar.js"></script>
     </body>
 </html>

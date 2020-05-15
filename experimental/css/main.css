@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     color: white;
     background-color: #1A1A1F;
@@ -88,23 +92,27 @@ h2.rowlabel {
     margin: 10px 10px 10px 0px;
 }
 
-.about {
-    /*background-color: #005291;*/
-}
-
-div.about {
+#headlinediv {
     min-height: calc(100vh - 79px);
 }
 
-p.about {
+#headlineparagraph {
     color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway";
     text-transform: uppercase;
     font-weight: 800;
     font-size: 2em;
     font-style: italic;
+    display: block;
+}
+
+div.headline {
     position: absolute;
     bottom: 32%;
+}
+
+.downarrow {
+    font-size: 4rem;
 }
 
 .skills {
@@ -212,4 +220,3 @@ div.certificationsdiv {
     margin-bottom: 20px;
     border-radius: 5px;
 }
-
