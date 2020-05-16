@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -9,7 +11,7 @@ html {
 body {
     color: white;
     background-color: #1A1A1F;
-    font-family: "Cormorant Garamond";
+    font-family: "Open Sans";
     min-width: 380px;
 }
 
@@ -80,11 +82,12 @@ main {
 }
 
 h2.rowlabel {
-    font-size: 16pt;
+    font-size: 19pt;
     font-family: "Pathway Gothic One";
     text-transform: uppercase;
     color: white;
-    background-color: #1A1A1F;
+    /*background-color: #1A1A1F;*/
+    background-color: #222831;
     border-radius: 5px;
     box-shadow: -1px -1px .5px #6d6d6d;
     padding: 10px;
@@ -237,5 +240,4 @@ div.certificationsdiv {
   .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
-  }
-  
+}
