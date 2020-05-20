@@ -57,9 +57,6 @@ body:after{
     font-size: 16pt;
 }
 
-.navbar-collapse {
-    justify-content: flex-end;
-}
 
 .custom-toggler.navbar-toggler { 
     border-color: white;
