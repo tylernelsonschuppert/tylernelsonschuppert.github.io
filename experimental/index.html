@@ -21,317 +21,319 @@
         <title>Tyler Nelson-Schuppert</title>
     </head>
     <body>
+        <a id="home"></a>
         <!-- Start Navbar -->
         <!-- Start Home with anchor for linking to top -->
-        <a id="home">
-            <header>
-                <nav class="navbar navbar-expand-lg fixed-top">  
-                    <a class="navbar-brand" href="#">TYLER NELSON-SCHUPPERT<small>Systems Architect. Software Engineer.</small></a>
-                    <button class="navbar-toggler ml-auto custom-toggler" id="navbar_button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#home">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#skills">Skills</a>    
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="#experience">Experience</a>
-                            </li>
-                            <li class="nav-item">  
-                                <a class="nav-link" href="#education">Education</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="#certifications">Certifications</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="./projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="https://www.github.com/tylernelsonschuppert/" target="_blank">GitHub <i class="fa fa-github"></i></a>
-                            </li>
-                            <li class="nav-item"> 
-                                <a class="nav-link" href="https://www.linkedin.com/in/tylernelsonschuppert/" target="_blank">LinkedIn</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
-        </a>
-        <!-- End Navbar -->
-        <main>
+        <!--<div>--> <!-- Sticky navbar container -->
+            <nav class="navbar navbar-expand-lg fixed-top">  
+                <a class="navbar-brand" href="#">TYLER NELSON-SCHUPPERT<small class="subbrand">Systems Architect. Software Engineer.</small></a>
+                <button class="navbar-toggler ml-auto custom-toggler" id="navbar_button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">  
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>    
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">  
+                            <a class="nav-link" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="#certifications">Certifications</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="./projects.html">Projects</a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="https://www.github.com/tylernelsonschuppert/" target="_blank" style=" white-space: nowrap;">GitHub <i class="fa fa-github"></i></a>
+                        </li>
+                        <li class="nav-item"> 
+                            <a class="nav-link" href="https://www.linkedin.com/in/tylernelsonschuppert/" target="_blank">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <!-- End Navbar -->
+
             <!-- Start Home / Headline / Main Content Rows -->
-            <div class="container-fluid" style="padding-top: 82px;">
-                <div id="headlinediv" class="row">
+            <div class="container-fluid">
+                <div id="headlinediv" class="about row">
                     <div class="col-md-12 d-flex justify-content-center align-items-center">
                         <div class="headline">
-                            <p id="headlineparagraph">Through Technology, human potential is limitless.</p>
+                            <!--<p id="headlineparagraph">Through Technology, human potential is limitless.</p>-->
+                            <i id="headlineparagraph" class="element"></i>
                             <div class="d-flex justify-content-center align-items-center">
                                 <a href="#skills" style="color: white;">
                                     <i class="fa fa-angle-double-down downarrow hvr-grow"></i>
                                 </a>
                             </div>
+                            <i class="element"></i>
                         </div>
                     </div>
                 </div>
             </div>
+
+        <!--</div>--><!-- end Sticky navbar container -->
+        <main>
             <!-- End Home / Headline -->
             <!-- Start Skills -->
-            <a id="skills">
-                <div class="container-fluid" style="padding-top: 82px;">
-                    <div class="skills row">
-                        <div class="col-md-1">
-                            <h2 class="rowlabel">[Skills]</h2>
-                        </div>
+            <a id="skills" style="padding-top: 50px;"></a>
+            <div class="container-fluid foo-2">
+                <div>
+                    <div class="sticky skills row contentheader">
+                        <h2 class="rowlabel">Skills</h2>
                     </div>
                     <div class="skills row">
                         <div class="col-md-12">
                             <table class="skills">
-                                    <tr>
-                                        <td>Scripting / Programming / Web Languages</td>
-                                        <td>PowerShell, Bash, Java, Python, HTML, CSS</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Operating Systems</td>
-                                        <td>Windows Server 2003-2016, RedHat Enterprise Linux 8, CentOS 6-8, Debian 4-10, Gentoo</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Public Cloud Providers</td>
-                                        <td>Microsoft Azure, Amazon AWS</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Virtualization</td>
-                                        <td>VMware vSphere, vCenter, ESXi, vRealize Operations</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Converged / Hyper-Converged Infrastructure</td>
-                                        <td>Cisco UCS, Dell EMC VxRail</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Containers / DevOps / Automation</td>
-                                        <td>Docker, Terraform, Ansible</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Web Services</td>
-                                        <td>Microsoft IIS, Apache, NGINX</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Application and Service Architectures</td>
-                                        <td>SOA, JSON, RESTful / REST APIs, Microservices</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Relational/Non-Relational Databases</td>
-                                        <td>Microsoft SQL Server, MySQL, PostgreSQL, NoSQL</td>
-                                    </tr>
-                                </table>
-                            </div>
+                                <tr>
+                                    <td>Scripting / Programming / Web Languages</td>
+                                    <td>PowerShell, Bash, Java, Python, HTML, CSS</td>
+                                </tr>
+                                <tr>
+                                    <td>Operating Systems</td>
+                                    <td>Windows Server 2003-2016, RedHat Enterprise Linux 8, CentOS 6-8, Debian 4-10, Gentoo</td>
+                                </tr>
+                                <tr>
+                                    <td>Public Cloud Providers</td>
+                                    <td>Microsoft Azure, Amazon AWS</td>
+                                </tr>
+                                <tr>
+                                    <td>Virtualization</td>
+                                    <td>VMware vSphere, vCenter, ESXi, vRealize Operations</td>
+                                </tr>
+                                <tr>
+                                    <td>Converged / Hyper-Converged Infrastructure</td>
+                                    <td>Cisco UCS, Dell EMC VxRail</td>
+                                </tr>
+                                <tr>
+                                    <td>Containers / DevOps / Automation</td>
+                                    <td>Docker, Terraform, Ansible</td>
+                                </tr>
+                                <tr>
+                                    <td>Web Services</td>
+                                    <td>Microsoft IIS, Apache, NGINX</td>
+                                </tr>
+                                <tr>
+                                    <td>Application and Service Architectures</td>
+                                    <td>SOA, JSON, RESTful / REST APIs, Microservices</td>
+                                </tr>
+                                <tr>
+                                    <td>Relational/Non-Relational Databases</td>
+                                    <td>Microsoft SQL Server, MySQL, PostgreSQL, NoSQL</td>
+                                </tr>
+                            </table>
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
+
             <!-- End Skills -->
             <!-- Start Experience -->
-            <a id="experience">
-                <div class="container-fluid" style="padding-top: 82px;">
-                    <div class="experience row">
-                        <div class="col-2">
-                            <h2 class="rowlabel">[Experience]</h2>
-                        </div>
+            <a id="experience"></a>
+            <div class="container-fluid foo-2">
+                <div class="sticky experience row contentheader">
+                    <h2 class="rowlabel">Experience</h2>
+                </div>
+                <div class="experience row">
+                    <div class="col-md-6">
+                        <div class="experiencediv">
+                            <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Senior Systems Programmer, Kindred Healthcare</h3>
+                            <h3 class="bodyblackheader alignright">Feb. 2018 - Jan. 2020</h3>
+                            <div style="clear: both;"></div>
+                            <ul class="bodylist">
+                                <li class="experience">Software Development of automation solutions to increase operational service reliability and decrease time-to-value for
+                                        project completion and capital acquisition.</li>
+                            </ul>
+                            <ul class="bodylistindented">
+                                <li class="experience">Developed several thousand lines of code used to automate management of Production datacenter infrastructure
+                                                        (Cisco UCS, VMware vSphere, Microsoft Exchange, Citrix NetScaler, Microsoft Windows, Linux/Unix, etc.)
+                                <li class="experience">Developed code to automate migration of Production Virtual Machine servers in large batches (thousands of Virtual
+                                                        Machines at a time). This resulted in the company migrating off of an obsolete ~$2M Cisco UCS hardware
+                                                        footprint onto newly purchased Cisco UCS blade servers.</li>
+                                <li class="experience">Utilized Ansible to programmatically connect to VMware vCenter REST APIs to manage license keys spread across
+                                                        17 vCenters. This allowed migration of license keys in bulk resulting in confirmed software
+                                                        licensing compliance as well as a departmental expense reduction of $200k OPEX.</li>
+                                <li class="experience">Developed code enabling the company to automate Windows Server Virtual Machine deployment resulting in one
+                                                        server being deployed with only one line of code instead of 5-6 lines of code per server.</li>
+                                <li class="experience">Developed Python code to programmatically connect to various VMware REST API and Cisco UCSM SDK instances and
+                                                        pull analytical reporting information from the environments.</li>
+                                <li class="experience">Developed code enabling the company to automate Compute/Storage infrastructure management by
+                                                        programmatically mounting/unmounting SAN LUNs and VMFS volumes resulting in quick and efficient migration of
+                                                        data between storage arrays.</li>
+                                <li class="experience">Developed code enabling the company to automate auditing and reporting of Cisco UCS WWPN pools, VMFS
+                                                        datastore space utilization, and VM/OS configuration.</li>
+                                <li class="experience">Developed and presented a PowerPoint presentation to a team of ~30 employees during a technology event
+                                                        covering foundational programming basics including Data Types, Data Structures, Programming Logic Constructs,
+                                                        etc.</li>
+                            </ul>
+                            <ul class="bodylist">
+                                <li class="experience">Responsible for management of multi-million dollar projects including end-to-end project plan development, resource
+                                                        management, and work execution. Interfaced with external vendors and internal teams and customers in support of
+                                                        operational and project based efforts.</li>
+                                <li class="experience">Provided capital acquisition and deployment services to Senior Management including $200k OPEX reduction of
+                                                        departmental expenses and increase from &lt;50% to confirmed 100% vendor supported datacenter software and
+                                                        hardware systems.</li>
+                                <li class="experience">Designated SME and Lead Engineer for VMware vSphere and Cisco UCS software/hardware platforms spanning 3
+                                                        large U.S. datacenters supporting 15 UCS domains, 52 UCS chassis, 17 vCenters, 59 vSphere clusters, and 274
+                                                        ESXi hosts supporting ~7,000 Unix/Linux/Windows Server VMs. Provided high-level strategic guidance and direction
+                                                        to Virtualization Services and Storage Management teams with a focus on increased efficiency, automation, reliability,
+                                                        resiliency, and cost-savings.</li>
+                                <li class="experience">Architecture of various public-facing load-balanced application environments for critical line-of-business
+                                                        applications, development and execution of end-to-end architecture plans for deployment of the company’s
+                                                        Production DHCP infrastructure, OU/GPO management in a multi-forest AD organization, development of Cisco
+                                                        ASA firewall rule sets for core Production datacenter traffic, etc.</li>
+                                <li class="experience">Designated as one of the highest tier escalation resources for 24x7 Production data center operations. Regular
+                                                        execution of RCA and resolution of high-impact Production outages with a focus on de-escalation and clear
+                                                        communication with customers and Senior Management.</li>
+                                <li class="experience" style="padding-bottom: 0px;">Provided Systems Engineering, Software Development, and Technical Architecture services to various technical and
+                                                        business teams including Technical Architecture, Domain Administration, Cloud Services, Infrastructure Services,
+                                                        Network Engineering, Storage Management, Cyber Security, Client Services, and Project Management.</li>
+                            </ul>
+                        </div>            
                     </div>
-                    <div class="experience row">
-                        <div class="col-md-6">
-                            <div class="experiencediv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Senior Systems Programmer, Kindred Healthcare</h3>
-                                <h3 class="bodyblackheader alignright">Feb. 2018 - Jan. 2020</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li class="experience">Software Development of automation solutions to increase operational service reliability and decrease time-to-value for
-                                            project completion and capital acquisition.</li>
-                                </ul>
-                                <ul class="bodylistindented">
-                                    <li class="experience">Developed several thousand lines of code used to automate management of Production datacenter infrastructure
-                                                            (Cisco UCS, VMware vSphere, Microsoft Exchange, Citrix NetScaler, Microsoft Windows, Linux/Unix, etc.)
-                                    <li class="experience">Developed code to automate migration of Production Virtual Machine servers in large batches (thousands of Virtual
-                                                            Machines at a time). This resulted in the company migrating off of an obsolete ~$2M Cisco UCS hardware
-                                                            footprint onto newly purchased Cisco UCS blade servers.</li>
-                                    <li class="experience">Utilized Ansible to programmatically connect to VMware vCenter REST APIs to manage license keys spread across
-                                                            17 vCenters. This allowed migration of license keys in bulk resulting in confirmed software
-                                                            licensing compliance as well as a departmental expense reduction of $200k OPEX.</li>
-                                    <li class="experience">Developed code enabling the company to automate Windows Server Virtual Machine deployment resulting in one
-                                                            server being deployed with only one line of code instead of 5-6 lines of code per server.</li>
-                                    <li class="experience">Developed Python code to programmatically connect to various VMware REST API and Cisco UCSM SDK instances and
-                                                            pull analytical reporting information from the environments.</li>
-                                    <li class="experience">Developed code enabling the company to automate Compute/Storage infrastructure management by
-                                                            programmatically mounting/unmounting SAN LUNs and VMFS volumes resulting in quick and efficient migration of
-                                                            data between storage arrays.</li>
-                                    <li class="experience">Developed code enabling the company to automate auditing and reporting of Cisco UCS WWPN pools, VMFS
-                                                            datastore space utilization, and VM/OS configuration.</li>
-                                    <li class="experience">Developed and presented a PowerPoint presentation to a team of ~30 employees during a technology event
-                                                            covering foundational programming basics including Data Types, Data Structures, Programming Logic Constructs,
-                                                            etc.</li>
-                                </ul>
-                                <ul class="bodylist">
-                                    <li class="experience">Responsible for management of multi-million dollar projects including end-to-end project plan development, resource
-                                                            management, and work execution. Interfaced with external vendors and internal teams and customers in support of
-                                                            operational and project based efforts.</li>
-                                    <li class="experience">Provided capital acquisition and deployment services to Senior Management including $200k OPEX reduction of
-                                                            departmental expenses and increase from &lt;50% to confirmed 100% vendor supported datacenter software and
-                                                            hardware systems.</li>
-                                    <li class="experience">Designated SME and Lead Engineer for VMware vSphere and Cisco UCS software/hardware platforms spanning 3
-                                                            large U.S. datacenters supporting 15 UCS domains, 52 UCS chassis, 17 vCenters, 59 vSphere clusters, and 274
-                                                            ESXi hosts supporting ~7,000 Unix/Linux/Windows Server VMs. Provided high-level strategic guidance and direction
-                                                            to Virtualization Services and Storage Management teams with a focus on increased efficiency, automation, reliability,
-                                                            resiliency, and cost-savings.</li>
-                                    <li class="experience">Architecture of various public-facing load-balanced application environments for critical line-of-business
-                                                            applications, development and execution of end-to-end architecture plans for deployment of the company’s
-                                                            Production DHCP infrastructure, OU/GPO management in a multi-forest AD organization, development of Cisco
-                                                            ASA firewall rule sets for core Production datacenter traffic, etc.</li>
-                                    <li class="experience">Designated as one of the highest tier escalation resources for 24x7 Production data center operations. Regular
-                                                            execution of RCA and resolution of high-impact Production outages with a focus on de-escalation and clear
-                                                            communication with customers and Senior Management.</li>
-                                    <li class="experience" style="padding-bottom: 0px;">Provided Systems Engineering, Software Development, and Technical Architecture services to various technical and
-                                                            business teams including Technical Architecture, Domain Administration, Cloud Services, Infrastructure Services,
-                                                            Network Engineering, Storage Management, Cyber Security, Client Services, and Project Management.</li>
-                                </ul>
-                            </div>            
+                    <div class="col-md-6">
+                        <div class="experiencediv">
+                            <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Systems Administrator II, Advanced Business Solutions</h3>
+                            <h3 class="bodyblackheader alignright">Jul. 2017 - Nov. 2017</h3>
+                            <div style="clear: both;"></div>
+                            <ul class="bodylist">
+                                <li class="experience">Provided Systems Engineering and Customer Services skills to hundreds of local and international healthcare,
+                                    industrial, legal, and financial businesses based on a billable hours model. Regularly interfaced with external Senior
+                                    I.T. Management and internal Project, Business, and Management teams in support of delivering Professional/
+                                    Managed Services.</li>
+                                <li class="experience" style="padding-bottom: 0px;">Work focused around architecture and implementation of new I.T. business processes and execution of technical
+                                    projects and troubleshooting. Some examples include development of employee on-boarding / termination
+                                    processes, execution of Office 365 cloud migration projects, execution of software upgrade projects, Active Directory
+                                    and Microsoft Exchange management and troubleshooting, VMware environment management, Firewall/Router/VPN
+                                    installation and configuration, etc.</li>
+                            </ul>
                         </div>
-                        <div class="col-md-6">
-                            <div class="experiencediv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Systems Administrator II, Advanced Business Solutions</h3>
-                                <h3 class="bodyblackheader alignright">Jul. 2017 - Nov. 2017</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li class="experience">Provided Systems Engineering and Customer Services skills to hundreds of local and international healthcare,
-                                        industrial, legal, and financial businesses based on a billable hours model. Regularly interfaced with external Senior
-                                        I.T. Management and internal Project, Business, and Management teams in support of delivering Professional/
-                                        Managed Services.</li>
-                                    <li class="experience" style="padding-bottom: 0px;">Work focused around architecture and implementation of new I.T. business processes and execution of technical
-                                        projects and troubleshooting. Some examples include development of employee on-boarding / termination
-                                        processes, execution of Office 365 cloud migration projects, execution of software upgrade projects, Active Directory
-                                        and Microsoft Exchange management and troubleshooting, VMware environment management, Firewall/Router/VPN
-                                        installation and configuration, etc.</li>
-                                </ul>
-                            </div>
-                            <div class="experiencediv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Systems Engineer, Mirazon / Texas Roadhouse</h3>
-                                <h3 class="bodyblackheader alignright">Mar. 2017 - May 2017</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li class="experience" style="padding-bottom: 0px;">Served as Project Engineer on a billable hours model for Cisco switching infrastructure upgrade project (40+ new
-                                        switches) for client headquartered in Louisville, KY with 450+ locations nationwide. Configured, racked, and cabled
-                                        new Cisco switching infrastructure. Regularly interfaced with client Senior I.T. Management and internal Network
-                                        Services teams in support of project execution.</li>
-                                </ul>
-                            </div>
-                            <div class="experiencediv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Systems Engineer, Louisville Geek / Republic Bank</h3>
-                                <h3 class="bodyblackheader alignright">Jun. 2016 - Mar. 2017</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li class="experience">Served hundreds of clients in various industries nationwide as a Managed Services Engineer on a billable hours
-                                        model. Regularly interfaced with client Senior I.T. Management and internal Project Management and Managed
-                                        Services teams in support of client operations and projects.</li>
-                                    <li class="experience" style="padding-bottom: 0px;">Work focused around architecture of new systems and applications, management/configuration/troubleshooting of
-                                        existing I.T. infrastructure, and development of software automation solutions to deliver cost-reduction and business
-                                        problem resolution.</li>
-                                </ul>
-                            </div>
-                            <div class="experiencediv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">PC Engineer, Louisville Geek</h3>
-                                <h3 class="bodyblackheader alignright">Oct. 2008 - Mar. 2009</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li class="experience" style="padding-bottom: 0px;">Served as customer point of contact for lifecycle of laptop/desktop repair services. Intake, troubleshooting, and
-                                        resolution of computer software/hardware issues and follow-up for customer communication and invoicing.</li>
-                                </ul>
-                            </div>
-                            <div class="experiencediv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Linux System Administrator, Self-Employed Hosting Provider</h3>
-                                <h3 class="bodyblackheader alignright">Oct. 2006 - Oct. 2008</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li class="experience">Compared and purchased cost-effective Linux dedicated server hosting. Communicated with datacenter service
-                                        providers to negotiate system and network resource pricing.</li>
-                                    <li class="experience">Located customers and provided dedicated Linux hosting services. Communicated with customers to determine and
-                                        deliver upon service requirements. Invoiced customers for monthly service usage.</li>
-                                    <li class="experience">Regular command-line management, configuration, and troubleshooting of CentOS and Debian physical Linux servers
-                                        located in remote datacenters.</li>
-                                    <li class="experience" style="padding-bottom: 0px;">Managed pre-requisite software library installation and upgrade for service operations as needed. Compiled, installed,
-                                        and configured Linux-based applications from source-code including Apache, MySQL, BIND, etc. Responsibly
-                                        managed and secured public-facing customer systems including implementation of rsync file backups, syslong-ng log
-                                        rotation, iptables firewall, and fail2ban IPS.</li>
-                                </ul>
-                            </div>
+                        <div class="experiencediv">
+                            <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Systems Engineer, Mirazon / Texas Roadhouse</h3>
+                            <h3 class="bodyblackheader alignright">Mar. 2017 - May 2017</h3>
+                            <div style="clear: both;"></div>
+                            <ul class="bodylist">
+                                <li class="experience" style="padding-bottom: 0px;">Served as Project Engineer on a billable hours model for Cisco switching infrastructure upgrade project (40+ new
+                                    switches) for client headquartered in Louisville, KY with 450+ locations nationwide. Configured, racked, and cabled
+                                    new Cisco switching infrastructure. Regularly interfaced with client Senior I.T. Management and internal Network
+                                    Services teams in support of project execution.</li>
+                            </ul>
+                        </div>
+                        <div class="experiencediv">
+                            <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Systems Engineer, Louisville Geek / Republic Bank</h3>
+                            <h3 class="bodyblackheader alignright">Jun. 2016 - Mar. 2017</h3>
+                            <div style="clear: both;"></div>
+                            <ul class="bodylist">
+                                <li class="experience">Served hundreds of clients in various industries nationwide as a Managed Services Engineer on a billable hours
+                                    model. Regularly interfaced with client Senior I.T. Management and internal Project Management and Managed
+                                    Services teams in support of client operations and projects.</li>
+                                <li class="experience" style="padding-bottom: 0px;">Work focused around architecture of new systems and applications, management/configuration/troubleshooting of
+                                    existing I.T. infrastructure, and development of software automation solutions to deliver cost-reduction and business
+                                    problem resolution.</li>
+                            </ul>
+                        </div>
+                        <div class="experiencediv">
+                            <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">PC Engineer, Louisville Geek</h3>
+                            <h3 class="bodyblackheader alignright">Oct. 2008 - Mar. 2009</h3>
+                            <div style="clear: both;"></div>
+                            <ul class="bodylist">
+                                <li class="experience" style="padding-bottom: 0px;">Served as customer point of contact for lifecycle of laptop/desktop repair services. Intake, troubleshooting, and
+                                    resolution of computer software/hardware issues and follow-up for customer communication and invoicing.</li>
+                            </ul>
+                        </div>
+                        <div class="experiencediv">
+                            <h3 class="bodyblackheader alignleft" style="margin-bottom: 2px;">Linux System Administrator, Self-Employed Hosting Provider</h3>
+                            <h3 class="bodyblackheader alignright">Oct. 2006 - Oct. 2008</h3>
+                            <div style="clear: both;"></div>
+                            <ul class="bodylist">
+                                <li class="experience">Compared and purchased cost-effective Linux dedicated server hosting. Communicated with datacenter service
+                                    providers to negotiate system and network resource pricing.</li>
+                                <li class="experience">Located customers and provided dedicated Linux hosting services. Communicated with customers to determine and
+                                    deliver upon service requirements. Invoiced customers for monthly service usage.</li>
+                                <li class="experience">Regular command-line management, configuration, and troubleshooting of CentOS and Debian physical Linux servers
+                                    located in remote datacenters.</li>
+                                <li class="experience" style="padding-bottom: 0px;">Managed pre-requisite software library installation and upgrade for service operations as needed. Compiled, installed,
+                                    and configured Linux-based applications from source-code including Apache, MySQL, BIND, etc. Responsibly
+                                    managed and secured public-facing customer systems including implementation of rsync file backups, syslong-ng log
+                                    rotation, iptables firewall, and fail2ban IPS.</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-            </a>
+            </div>
+
             <!-- End Experience -->
             <!-- Start Education -->
-            <a id="education">
-                <div class="container-fluid" style="padding-top: 82px;">
-                    <div class="education row">
-                        <div class="col-2">
-                            <h2 class="rowlabel">[Education]</h2>
-                        </div>
-                    </div>
-                    <div class="education row">
-                        <div class="col-md-6">
-                            <div class="educationdiv">
-                                <h3 class="bodyblackheader alignleft" style="margin-bottom: 0px;">Indiana University Southeast</h3>
-                                <h3 class="bodyblackheader alignright" style="margin-bottom: 0px;">2016 - 2021</h3>
-                                <div style="clear: both;"></div>
-                                <h3 class="bodyblackheader alignleft">Bachelor of Science, Informatics (Computer Networking Cognate)</h3>
-                                <div style="clear: both;"></div>
-                                <ul class="bodylist">
-                                    <li>Linux Team Lead, National Collegiate Cybersecurity Defense Competition: Led the Indiana University Southeast Cybersecurity extracurricular team to place and compete in regionals.</li>
-                                    <li>Completed approximately 1 year of Informatics degree credit requirements focused around Python and Java Object-
-                                            Oriented programming, SQL Programming, Finite Mathematics, and Organizational/Global Informatics.</li>
-                                    <li style="padding-bottom: 0px;">In the process of transferring credits to online Informatics degree track to allow completion of remaining coursework
-                                            online at nighttime during full-time employment.</li>
-                                </ul>
-                            </div>
-                        </div>
+            <a id="education"></a>
+            <div class="container-fluid foo-2">
+                <div class="sticky education row contentheader">
+                        <h2 class="rowlabel">Education</h2>
+                </div>
+                <div class="education row d-flex">
+                    <div class="educationdiv" style="max-width: 810px;">
+                        <h3 class="bodyblackheader alignleft" style="margin-bottom: 0px;">Indiana University Southeast</h3>
+                        <h3 class="bodyblackheader alignright" style="margin-bottom: 0px;">2016 - 2021</h3>
+                        <div style="clear: both;"></div>
+                        <h3 class="bodyblackheader alignleft">Bachelor of Science, Informatics (Computer Networking Cognate)</h3>
+                        <div style="clear: both;"></div>
+                        <ul class="bodylist">
+                            <li>Linux Team Lead, National Collegiate Cybersecurity Defense Competition: Led the Indiana University Southeast Cybersecurity extracurricular team to place and compete in regionals.</li>
+                            <li>Completed approximately 1 year of Informatics degree credit requirements focused around Python and Java Object-
+                                    Oriented programming, SQL Programming, Finite Mathematics, and Organizational/Global Informatics.</li>
+                            <li style="padding-bottom: 0px;">In the process of transferring credits to online Informatics degree track to allow completion of remaining coursework
+                                    online at nighttime during full-time employment.</li>
+                        </ul>
                     </div>
                 </div>
-            </a>
+            </div>
+
             <!-- End Education -->
             <!-- Start Certifications -->
-            <a id="certifications">
-                <div class="container-fluid" style="padding-top: 82px;">
-                    <div class="certifications row">
-                        <div class="col-2">
-                            <h2 class="rowlabel">[Certifications]</h2>
-                        </div>
-                    </div>
-                    <div class="certifications row">
-                        <div class="col-md-4">
-                            <div class="certificationsdiv">
-                                <ul class="bodylist">
-                                    <li>IBM Data Science Foundations</li>
-                                    <li>IBM Docker Essentials: A Developer Introduction</li>
-                                    <li>Google Analytics for Beginners</li>
-                                    <li>Microsoft Certified: Azure Fundamentals</li>
-                                    <li>Linux Academy Big Data Fundamentals</li>
-                                    <li>VMware vSphere 6.5 Foundations</li>
-                                    <li>VMware Technical Sales Professional</li>
-                                    <li>VMware Sales Professional</li>
-                                    <li style="padding-bottom: 0px;">Fortinet Network Security Expert</li> 
-                                </ul>
-                            </div>
-                        </div>
+            <a id="certifications"></a>
+            <div class="container-fluid foo-2">
+                <div class="sticky certifications row contentheader">
+                    <h2 class="rowlabel">Certifications</h2>
+                </div>
+                <div class="certifications row d-flex">
+                    <div class="certificationsdiv">
+                        <ul class="bodylist">
+                            <li>IBM Data Science Foundations</li>
+                            <li>IBM Docker Essentials: A Developer Introduction</li>
+                            <li>Google Analytics for Beginners</li>
+                            <li>Microsoft Certified: Azure Fundamentals</li>
+                            <li>Linux Academy Big Data Fundamentals</li>
+                            <li>VMware vSphere 6.5 Foundations</li>
+                            <li>VMware Technical Sales Professional</li>
+                            <li>VMware Sales Professional</li>
+                            <li style="padding-bottom: 0px;">Fortinet Network Security Expert</li> 
+                        </ul>
                     </div>
                 </div>
-            </a>
+            </div>
             <!-- End Certifications -->
         </main>
+
         <!-- End Main Content Rows -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
         <script src="./js/navbar.js"></script>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./js/scrollreveal.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script src="./js/typed.js"></script>
+
+<!--        <script src="./js/navbar_custom_scroll_transition.js"></script> --> <!-- disabled for sticky navbar-->
     </body>
 </html>
