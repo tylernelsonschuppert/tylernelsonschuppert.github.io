@@ -352,3 +352,10 @@ main {
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -82px;
+    visibility: hidden;
+}
