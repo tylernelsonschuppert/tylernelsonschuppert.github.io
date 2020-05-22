@@ -14,23 +14,6 @@ body {
     font-family: "Open Sans";
     min-width: 380px;
 }
-/*
-body:after{
-    content:"";
-    position:fixed; /* stretch a fixed position to the whole screen *//*
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing *//*
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background *//*
-    background: url(../mountains2.jpeg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-*/
-
 
 .about {
     content:"";
@@ -46,11 +29,7 @@ body:after{
     background-size: cover;
 }
 
-
-
-
 .navbar {
-/*    background:#1A1A1F;*/
     color: white;
     font-family: "Pathway Gothic One";
     min-width: 380px;
@@ -88,26 +67,11 @@ body:after{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
 
-main {
-    /*padding-top: 82px;*/
-    /*
-    background-image: url("../mountains2.jpeg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #1A1A1F;*/
-}
-
 h2.rowlabel {
     font-size: 19pt;
     font-family: "Pathway Gothic One";
     text-transform: uppercase;
     color: white;
-    /*background-color: #1A1A1F;*/
-/*    background-color: #222831;*/
-
-/*    box-shadow: -1px -1px .5px #6d6d6d;*/
     padding: 5px 10px 5px 30px;
     display: inline-block;
     margin: 5px 10px 5px 0px;
@@ -136,10 +100,6 @@ div.headline {
     font-size: 4rem;
 }
 
-.skills {
-    /*background-color: #2D333B;*/
-}
-
 table.skills {
     padding: 15px;
     margin-bottom: 14px;
@@ -148,8 +108,6 @@ table.skills {
     border-spacing: 0px;
     border-collapse: separate; 
     border-radius: 5px;
-/*    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;*/
 }
 
 td {
@@ -160,14 +118,8 @@ li.skills {
     padding-bottom: 10px;
 }
 
-.experience {
-    /*background-color: #222831;*/
-}
-
 div.experiencediv {
     font-size: 12pt;
-/*    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;*/
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
@@ -213,30 +165,19 @@ ul.bodylistindented {
 }
 
 li {
-        padding-bottom: 15px;
-        line-height: 1.4em;
-}
-.education {
-    /*background-color: #1b2027;*/
+    padding-bottom: 15px;
+    line-height: 1.4em;
 }
 
 div.educationdiv {
     font-size: 12pt;
-/*    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;*/
     padding: 15px 15px 15px 30px;
     margin-bottom: 20px;
     border-radius: 5px;
 }
 
-.certifications {
-    /*background-color: #1A1A1F;*/
-}
-
 div.certificationsdiv {
     font-size: 12pt;
-/*    background-color: rgb(34, 40, 49, .9);
-    box-shadow: -1px -1px .5px #6d6d6d;*/
     padding: 15px 15px 15px 30px;
     margin-bottom: 20px;
     border-radius: 5px;
@@ -264,44 +205,17 @@ div.certificationsdiv {
     display: flex;
 }
 
-
-
-
-.skills {
-    /*background-color: rgb(4, 110, 143, 1.0);*/
-    background-color: #011F31;
-}
-.experience {
-    /*background-color: rgb(24, 52, 70, 1.0);*/
-    background-color: #011F31;
-}
-
-.education {
-    /*background-color: rgb(2, 47, 64, 1.0);*/
-    background-color: #011F31;
-}
-
+.skills,
+.experience,
+.education,
 .certifications {
     background-color: #011F31;
 }
-
 
 .rowwrapper {
     margin-left: 300px;
     margin-right: 300px;
 }
-
-/*
-.navbar.transparent {
-    background: rgba(0,0,0,0.4);
-}*/
-/* Navbar custom scroll transition */
-/*
-.navbar { background-color: rgb(0,0,0,0.4); -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear; }
-.scrolled { background-color: rgba(0,0,0,1); -webkit-transition: background-color 500ms linear; -moz-transition: background-color 500ms linear; -ms-transition: background-color 500ms linear; transition: background-color 500ms linear; }
-*/
-
-
 
 .navbar {
     z-index: 10000;
@@ -314,15 +228,6 @@ div.certificationsdiv {
     align-items: flex-start;
   
   }
-
-/*
-main {
-    -webkit-box-shadow: 0 0 5px 3px #6d6d6d;
-    -moz-box-shadow: 0 0 5px 3px #6d6d6d;
-    box-shadow: 0 0 5px 3px #6d6d6d;
-    margin: 15px;
-    padding: 0px;
-}*/
 
 .navbar {
     -webkit-box-shadow: 0 0 3px 1px #6d6d6d;
@@ -358,4 +263,63 @@ a.anchor {
     position: relative;
     top: -82px;
     visibility: hidden;
+}
+
+.footer {
+    height: 92px;
+    background-color: #1A1A1F;
+    justify-content: center;
+}
+
+.footerparagraph {
+    font-size: 14px;
+    margin-bottom: 0px;
+    display: inline;
+}
+
+div #versiontablediv {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+#versiontablediv table {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+#versiontablediv > table > * {
+    font-size: 8px;
+    color:white;
+}
+
+#versiontablediv > table > caption {
+    caption-side: top;
+    text-justify: center;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+
+#versiontablediv > table > tbody > tr > td:nth-child(1) {
+    padding-right: 15px;
+} 
+
+#versiontablediv > table > tbody > tr > td:nth-child(2) {
+    padding-right: 0px;
+} 
+
+.certificationspadding {
+    padding-bottom: calc(100vh - 589px);
+}
+
+@media screen and (max-width: 844px) {
+    div #versiontablediv {
+        padding-bottom: 20px;
+    }
+    .certificationspadding {
+        padding-bottom: calc(100vh - 685px);
+    }
 }
