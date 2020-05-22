@@ -11,10 +11,9 @@ versions[3] = {};
 // Initialize 2nd-dimension key-value data structures
 versions[0] = {
     "OS": "Windows",
-    "Chrome": "1.0",
-    "Firefox": "1.0",
-    "Internet Explorer": "1.0",
-    "Edge": "1.0"
+    "Chrome": "83.0.4103.61",
+    "Firefox": "N/A",
+    "IE / Edge": "N/A"
 };
 versions[1] = {
     "OS": "macOS",
@@ -24,11 +23,11 @@ versions[1] = {
 };
 versions[2] = {
     "OS": "iOS",
-    "Safari": "1.0"
+    "Safari": "N/A"
 };
 versions[3] = {
     "OS": "iPadOS",
-    "Safari": "1.0"
+    "Safari": "N/A"
 };
   
 function createTables() {
