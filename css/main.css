@@ -268,13 +268,11 @@ a.anchor {
 .footer {
     height: 92px;
     background-color: #1A1A1F;
-    justify-content: center;
 }
 
 .footerparagraph {
     font-size: 14px;
     margin-bottom: 0px;
-    display: inline;
 }
 
 div #versiontablediv {
@@ -287,7 +285,6 @@ div #versiontablediv {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    padding-top: 10px;
 }
 
 #versiontablediv > table > * {
@@ -315,11 +312,69 @@ div #versiontablediv {
     padding-bottom: calc(100vh - 589px);
 }
 
-@media screen and (max-width: 844px) {
+@media screen and (max-width: 768px) {
+    .sitetestpdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sitetestvtparentdiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .sitetestpdiv {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .sitetestvtparentdiv {
+        display: flex;
+        align-items: center;
+        justify-content: none;
+    }
+}
+
+
+
+/*
+@media screen and (max-width: 768px) {
     div #versiontablediv {
         padding-bottom: 20px;
     }
     .certificationspadding {
         padding-bottom: calc(100vh - 685px);
     }
+    #versiontablediv table {
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-top: 0px;
+    }
+    .footerparagraph {
+        display: block;
+        text-align: center;
+        padding: 10px 20px 0px 0px;
+    }
+    .footerversiondiv {
+        justify-content: none;
+        align-items: none;
+        display: block;
+    }
 }
+
+@media screen and (min-width: 768px) {
+    .footerversiondiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerparagraph {
+        display: inline;
+        text-align: none;
+        padding: 10px 20px 0px 0px;
+    }
+}*/
