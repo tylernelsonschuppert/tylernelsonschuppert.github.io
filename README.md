@@ -57,7 +57,7 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 
 <br />
 
-> Your code have comments that document major sections of your code to make it easier to read<br /><br />
+> Your code have comments that document major sections of your code to make it easier to read<br />
 > > You don’t need to go crazy on this - a few code comments are perfectly fine
 
 (README document to be updated and ammended further in the future)
