@@ -1,9 +1,16 @@
+/****************/
+/* Font Imports */
+/****************/
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/****************/
+/****************/
 
+
+/*******************************/
 /* Generic Document Properties */
-
+/*******************************/
 html {
     scroll-behavior: smooth;
 }
@@ -20,9 +27,13 @@ body {
 .floatright { float: right; }
 
 .d-flex { display: flex; }
+/*******************************/
+/*******************************/
 
+
+/*********************/
 /* Navbar Properties */
-
+/*********************/
 .navbar {
     color: white;
     font-family: "Pathway Gothic One";
@@ -64,9 +75,13 @@ body {
 .custom-toggler .navbar-toggler-icon { 
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
+/*********************/
+/*********************/
 
+
+/***************************/
 /* Landing Page Properties */
-
+/***************************/
 .about {
     content:"";
     top:0;
@@ -107,9 +122,13 @@ div.headline {
 }
 
 .downarrow { font-size: 4rem; }
+/***************************/
+/***************************/
 
+
+/*******************************************/
 /* Generic Section Label/Header Properties */
-
+/*******************************************/
 h2.rowlabel {
     font-size: 19pt;
     font-family: "Pathway Gothic One";
@@ -142,9 +161,13 @@ a.anchor {
     top: -82px;
     visibility: hidden;
 }
+/*******************************************/
+/*******************************************/
 
+
+/**********************************/
 /* Sticky Label/Header Properties */
-
+/**********************************/
 .sticky {
     position: -webkit-sticky; /* Required for Safari */
     position: sticky;
@@ -152,9 +175,13 @@ a.anchor {
     z-index: 9999;
     top: 82px;
 }
+/***********************************/
+/**********************************/
 
+
+/***************************/
 /* Generic List Properties */
-
+/***************************/
 ul.bodylist {
     list-style-type: disc;
     margin-top: 0px;
@@ -181,19 +208,26 @@ li {
     padding-bottom: 15px;
     line-height: 1.4em;
 }
+/***************************/
+/***************************/
 
+
+/***************************/
 /* All Sections Properties */
-
+/***************************/
 .skills,
 .experience,
 .education,
 .certifications {
     background-color: #011F31;
 }
+/***************************/
+/***************************/
 
 
+/*****************************/
 /* Skills Section Properties */
-
+/*****************************/
 table.skills {
     padding: 15px;
     margin-bottom: 14px;
@@ -205,18 +239,26 @@ table.skills {
 }
 
 table.skills > tbody > tr > td { padding: 0px 50px 0px 0px; }
+/*****************************/
+/*****************************/
 
+
+/*********************************/
 /* Experience Section Properties */
-
+/*********************************/
 div.experiencediv {
     font-size: 12pt;
     border-radius: 5px;
     padding: 15px;
     margin-bottom: 20px;
 }
+/*********************************/
+/*********************************/
 
+
+/********************************/
 /* Education Section Properties */
-
+/********************************/
 div.educationdiv {
     font-size: 12pt;
     padding: 15px 15px 15px 30px;
@@ -230,15 +272,21 @@ div.certificationsdiv {
     margin-bottom: 20px;
     border-radius: 5px;
 }
+/********************************/
+/********************************/
 
-/* Experience Section Properties */
 
+/*************************************/
 /* Certifications Section Properties */
-
+/*************************************/
 .certificationspadding { padding-bottom: calc(100vh - 589px); }
+/*************************************/
+/*************************************/
 
+
+/*********************/
 /* Footer Properties */
-
+/*********************/
 .footer {
     height: 92px;
     background-color: #1A1A1F;
@@ -249,8 +297,13 @@ div.certificationsdiv {
     margin-bottom: 0px;
     font-family: "Pathway Gothic One";
 }
+/*********************/
+/*********************/
 
-/* 2D TRANSITIONS */
+
+/******************/
+/* 2D Transitions */
+/******************/
 /* Grow */
 .hvr-grow {
     display: inline-block;
@@ -267,3 +320,5 @@ div.certificationsdiv {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
+/******************/
+/******************/
