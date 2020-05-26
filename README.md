@@ -12,11 +12,11 @@ One of the requirements for the project is to include a README (this README) in 
 
 The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
 
-* > A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
+> * A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
 
 The website features a nav menu that is fully displayed on desktop-sized screens.  On mobile devices, the full nav menu becomes hidden by default and replaced by a hamburger icon which can be clicked to expand/contract a menu containing the nav elements.
 
-* > Create and populate a JavaScript array, then retrieve and display one or more values from it
+> * Create and populate a JavaScript array, then retrieve and display one or more values from it
 
 Multiple JavaScript files are used for the website, however the specific file ```js/array.js``` fulfills this requirement.
 
@@ -24,7 +24,7 @@ The code executed in this file creates (declares) a JavaScript array then indivi
 
 Afterwards, a JavaScript function is defined and executed.  The function declares and initializes an empty String variable, uses a for loop to individually and iteratively retrieve all elements contained in the previously initialized array, concatenates each element to the previous value of the (initially empty) String variable, selects a div element defined in the index.html file using the unique identifier of the div element, creates a paragraph element, creates a text node to insert the value of the (no-longer empty) String variable inside of the paragraph element, sets a class attribute value for the paragraph element for styling, then inserts the paragraph element and the enclosed text inside of the uniquely selected div element in the index.html file displayed by the browser.
 
-* > Import Bootstrap from a CDN and use its column system to create a responsive design
+> * Import Bootstrap from a CDN and use its column system to create a responsive design
 
 Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column system is used to create a responsive design for the website.  Several parent Rows and child Column sets are defined and styled to organize the content.  The design is responsive, meaning that multiple columns within a row collapse into a single column depending on the screen size of the device viewing the web page, resulting in a website which is accessible across a variety of devices.
 <br />
