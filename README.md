@@ -40,23 +40,23 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 (README document to be updated and ammended further in the future)
 
 > * Your project includes at minimum 3 custom-written CSS elements (selectors, classes, etc) located in a .css file which are applied to your HTML elements
-    > * The CSS must be included in its own file, not “in-line” on your HTML page - we want to see that you can properly “link” a stylesheet
-    > * Many of the options in the first requirement will also fulfil this requirement
+> > * The CSS must be included in its own file, not “in-line” on your HTML page - we want to see that you can properly “link” a stylesheet<br />
+> > * Many of the options in the first requirement will also fulfil this requirement
 
 (README document to be updated and ammended further in the future)
 
 > * Your project includes JavaScript in a separate .js file
-    > * Script tags in your HTML file must execute the JS file
-    > * Many of the options in the first requirement will also fulfil this requirement
+> > * Script tags in your HTML file must execute the JS file<br />
+> > * Many of the options in the first requirement will also fulfil this requirement
 
 (README document to be updated and ammended further in the future)
 
-> * Your code have comments that document major sections of your code to make it easier to read
-    > * You don’t need to go crazy on this - a few code comments are perfectly fine
+> * Your code have comments that document major sections of your code to make it easier to read<br />
+> > * You don’t need to go crazy on this - a few code comments are perfectly fine
 
 (README document to be updated and ammended further in the future)
 
-> * Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits
-    > * We need to see that you’ve used Git to update your GitHub profile at least 5 times
+> * Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits<br />
+> > * We need to see that you’ve used Git to update your GitHub profile at least 5 times
 
 (README document to be updated and ammended further in the future)
