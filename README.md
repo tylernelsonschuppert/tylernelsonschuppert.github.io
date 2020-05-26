@@ -64,7 +64,7 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 
 <br />
 
-> Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits<br /><br />
+> Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits<br />
 > > We need to see that you’ve used Git to update your GitHub profile at least 5 times
 
 (README document to be updated and ammended further in the future)
