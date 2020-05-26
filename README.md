@@ -8,6 +8,7 @@ This website was hand-coded by me while participating in a Front-End Web Develop
 One of the requirements for the project is to include a README (this README) in the respective GitHub repository detailing fullfillment of all project feature requirements.  I will acknowledge and elaborate on fullfilment of the project requirements (as specified by the Front-End Development Project Requirements document) below:
 <br />
 <br />
+<br />
 
 > __Choose a minimum of 3 of the below features and incorporate into your site.__
 
@@ -28,32 +29,33 @@ Afterwards, a JavaScript function is defined and executed.  The function declare
 Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column system is used to create a responsive design for the website.  Several parent Rows and child Column sets are defined and styled to organize the content.  The design is responsive, meaning that multiple columns within a row collapse into a single column depending on the screen size of the device viewing the web page, resulting in a website which is accessible across a variety of devices.
 <br />
 <br />
+<br />
 
 > __ALL of the below requirements must be met.__
-* Your project is responsive to different devices and/or browser sizes and improves the user experience in some way
-    * We will look at your app on a desktop screen and a mobile device to see what changes occur
-    * We must be able to see the change that your code is making on your website - a media query can be written correctly but have no actual effect. That will not be ok in this class.
+> * Your project is responsive to different devices and/or browser sizes and improves the user experience in some way
+    > * We will look at your app on a desktop screen and a mobile device to see what changes occur
+    > * We must be able to see the change that your code is making on your website - a media query can be written correctly but have no actual effect. That will not be ok in this class.
 
 (README document to be updated and ammended further in the future)
 
-* Your project includes at minimum 3 custom-written CSS elements (selectors, classes, etc) located in a .css file which are applied to your HTML elements
-    * The CSS must be included in its own file, not “in-line” on your HTML page - we want to see that you can properly “link” a stylesheet
-    * Many of the options in the first requirement will also fulfil this requirement
+> * Your project includes at minimum 3 custom-written CSS elements (selectors, classes, etc) located in a .css file which are applied to your HTML elements
+    > * The CSS must be included in its own file, not “in-line” on your HTML page - we want to see that you can properly “link” a stylesheet
+    > * Many of the options in the first requirement will also fulfil this requirement
 
 (README document to be updated and ammended further in the future)
 
-* Your project includes JavaScript in a separate .js file
-    * Script tags in your HTML file must execute the JS file
-    * Many of the options in the first requirement will also fulfil this requirement
+> * Your project includes JavaScript in a separate .js file
+    > * Script tags in your HTML file must execute the JS file
+    > * Many of the options in the first requirement will also fulfil this requirement
 
 (README document to be updated and ammended further in the future)
 
-* Your code have comments that document major sections of your code to make it easier to read
-    * You don’t need to go crazy on this - a few code comments are perfectly fine
+> * Your code have comments that document major sections of your code to make it easier to read
+    > * You don’t need to go crazy on this - a few code comments are perfectly fine
 
 (README document to be updated and ammended further in the future)
 
-* Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits
-    * We need to see that you’ve used Git to update your GitHub profile at least 5 times
+> * Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits
+    > * We need to see that you’ve used Git to update your GitHub profile at least 5 times
 
 (README document to be updated and ammended further in the future)
