@@ -22,6 +22,6 @@ The 3 features I have chosen as well as an explanation for the implementation of
 
 > Import Bootstrap from a CDN and use its column system to create a responsive design
 - (Testing nested list item markdown)
-
-
+<br />
+<br />
 (Initial commit to review README markdown styling, README document to be updated and ammended further in the future)
