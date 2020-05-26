@@ -20,7 +20,7 @@ The website features a nav menu that is fully displayed on desktop-sized screens
 
 Multiple JavaScript files are used for the website, however the specific file ```js/array.js``` fulfills this requirement.
 
-The code executed in this file declares a JavaScript array then individually populates (initializes) the first 23 elements of the array with String Data Type values.
+The code executed in this file creates (declares) a JavaScript array then individually populates (initializes) the first 23 elements of the array with String Data Type values.
 
 Afterwards, a JavaScript function is defined and executed.  The function declares and initializes an empty String variable, uses a for loop to individually and iteratively retrieve all elements contained in the previously initialized array, concatenates each element to the previous value of the (initially empty) String variable, selects a div element defined in the index.html file using the unique identifier of the div element, creates a paragraph element, creates a text node to insert the value of the (no-longer empty) String variable inside of the paragraph element, sets a class attribute value for the paragraph element for styling, then inserts the paragraph element and the enclosed text inside of the uniquely selected div element in the index.html file displayed by the browser.
 
