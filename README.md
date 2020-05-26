@@ -5,10 +5,8 @@ Hello, my name is Tyler Nelson-Schuppert.  If you are a human reading this - tha
 
 This website was hand-coded by me while participating in a Front-End Web Development boot-camp based in Louisville, KY hosted by an organization named "Code Lousville".  This GitHub Repository (and the associated Website) are being submitted by me to Code Louisville to fulfill project-specific requirements for completion of the Code Louisville Front-End Web Development program.
 
-One of the requirements for the project is to include a README (this README) in the respective GitHub repository detailing fullfillment of all project feature requirements.  I will acknowledge and elaborate on fullfilment of the project requirements (as specified by the Front-End Development Project Requirements document) below:
-  
-  
-  
+One of the requirements for the project is to include a README (this README) in the respective GitHub repository detailing fullfillment of all project feature requirements.  I will acknowledge and elaborate on fullfilment of the project requirements (as specified by the Front-End Development Project Requirements document) below:  
+
 >Choose a minimum of 3 of the below features and incorporate into your site.
 
 The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
