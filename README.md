@@ -8,7 +8,8 @@ This website was hand-coded by me while participating in a Front-End Web Develop
 One of the requirements for the project is to include a README (this README) in the respective GitHub repository detailing fullfillment of all project feature requirements.  I will acknowledge and elaborate on fullfilment of the project requirements (as specified by the Front-End Development Project Requirements document) below:
 <br />
 <br />
-> ** Choose a minimum of 3 of the below features and incorporate into your site. **
+
+> __Choose a minimum of 3 of the below features and incorporate into your site.__
 
 The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
 
