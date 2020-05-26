@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 html {
@@ -273,12 +271,14 @@ a.anchor {
 .footerparagraph {
     font-size: 14px;
     margin-bottom: 0px;
+    font-family: "Pathway Gothic One";
 }
 
 div #versiontablediv {
     display: flex;
     justify-content: center;
     align-items: top;
+    font-family: "Pathway Gothic One";
 }
 
 #versiontablediv table {
@@ -288,7 +288,7 @@ div #versiontablediv {
 }
 
 #versiontablediv > table > * {
-    font-size: 8px;
+    font-size: 12px;
     color:white;
 }
 
@@ -311,7 +311,7 @@ div #versiontablediv {
 .certificationspadding {
     padding-bottom: calc(100vh - 589px);
 }
-
+/*
 @media screen and (max-width: 768px) {
     .sitetestpdiv {
         display: flex;
@@ -336,7 +336,7 @@ div #versiontablediv {
         align-items: center;
         justify-content: none;
     }
-}
+}*/
 
 
 
