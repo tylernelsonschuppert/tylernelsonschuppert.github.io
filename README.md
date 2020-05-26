@@ -9,17 +9,17 @@ One of the requirements for the project is to include a README (this README) in 
 
 >Choose a minimum of 3 of the below features and incorporate into your site.
 
-The 3 features I have chosen as well as an explanation of each feature are as follows:
+The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
 
-1. > A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
+> A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
     - (Testing nested list item markdown)
 
 
-2. > Create and populate a JavaScript array, then retrieve and display one or more values from it
+> Create and populate a JavaScript array, then retrieve and display one or more values from it
     - (Testing nested list item markdown)
 
 
-3. > Import Bootstrap from a CDN and use its column system to create a responsive design
+> Import Bootstrap from a CDN and use its column system to create a responsive design
     - (Testing nested list item markdown)
 
 
