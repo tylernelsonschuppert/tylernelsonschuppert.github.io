@@ -29,6 +29,7 @@ The code executed in this file declares a JavaScript array then initializes the 
 The function declares and initializes an empty String data type variable, uses a for loop to iterate over all String elements contained in the previously initialized array, iteratively concatenates each of the elements to the previous value of the (initially empty) String data type variable, selects a div element defined in the index.html file using the unique identifier of the div element, creates a paragraph element, creates a text node to insert the value of the (no-longer empty) String data type variable inside of the paragraph element, sets a class attribute value for the paragraph element, then inserts the paragraph element and the enclosed text inside of the respective div element in the index.html file displayed by the browser.
 
 > Import Bootstrap from a CDN and use its column system to create a responsive design
+
 Code in the index.html file imports Bootstrap from a CDN.  I've used the Bootstrap column system to create a responsive design within the content sections for the website.  Several parent Rows and child Column sets are defined and styled to comprise the majority of the content.  The design is responsive, meaning that multiple columns within a row collapse into a single column depending on the screen size of the device viewing the web page.
 
 <br />
