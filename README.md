@@ -11,8 +11,6 @@ One of the requirements for the project is to include a README (this README) in 
 
 > __Choose a minimum of 3 of the below features and incorporate into your site.__
 
-The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
-
 > * A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
 
 The website features a nav menu that is fully displayed on desktop-sized screens.  On mobile devices, the full nav menu becomes hidden by default and replaced by a hamburger icon which can be clicked to expand/contract a menu containing the nav elements.
