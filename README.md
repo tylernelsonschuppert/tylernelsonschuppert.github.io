@@ -1,5 +1,5 @@
 # Tyler Nelson-Schuppert's Portfolio Website
-### tylernelsonschuppert.github.com / www.tylernelsonschuppert.com
+### https://tylernelsonschuppert.github.io / https://www.tylernelsonschuppert.com
 
 Hello.  My name is Tyler Nelson-Schuppert.  If you are a human reading this - thank you for taking the time to look at the README file for my GitHub Repository.  This GitHub repository manages the code used for my professional portfolio website.  The focus of this website is to feature a publicly viewable forum marketing my resume and projects to potential employers and colleagues.
 
