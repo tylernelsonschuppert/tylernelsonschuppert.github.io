@@ -20,7 +20,7 @@ The website features a nav menu that is fully displayed on desktop-sized screens
 
 Multiple JavaScript files are used for the website, however the file ```js/array.js``` relates specifically to this requirement.
 
-Short Explanation:
+Short Explanation:  
 A JavaScript array is created and populated with 23 values.  All 23 values are displayed on the page.  JavaScript code is used to insert HTML (which displays the values in the array) into the index.html file displayed by the browser.
 
 Long Explanation:  
