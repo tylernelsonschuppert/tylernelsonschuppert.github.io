@@ -13,15 +13,22 @@ One of the requirements for the project is to include a README (this README) in 
 The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
 
 > A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
-- (Testing nested list item markdown)
 
+The website features a nav menu that is fully displayed on desktop-sized screens.  On mobile devices, the full nav menu becomes hidden by default and replaced by a hamburger icon which can be clicked to expand/contract a menu containing the nav elements.
 
 > Create and populate a JavaScript array, then retrieve and display one or more values from it
-- (Testing nested list item markdown)
 
+Multiple JavaScript files are used for the website, however the file ```js/array.js``` relates specifically to this requirement.
+
+Short Explanation:
+A JavaScript array is created and populated with 23 values.  All 23 values are displayed on the page.  JavaScript code is used to insert HTML (which displays the values in the array) into the index.html file displayed by the browser.
+
+Long Explanation:  
+The code executed in this file declares a JavaScript array then initializes the first 23 elements of the array with String values.  Afterwards, a JavaScript function is defined and executed.
+
+The function declares and initializes a String data type variable, uses a for loop to iterate over all elements contained in the the previously initialized array, iteratively concatenates each of the elements to the previous value of the String data type variable, selects a div element defined in the index.html file using the unique identifier of the div element, creates a paragraph element, creates a text node to insert inside of the paragraph elements, sets a class attribute value for the paragraph element, then inserts the paragraph element and the enclosed text underneath of the respective div element in the index.html file.
 
 > Import Bootstrap from a CDN and use its column system to create a responsive design
-- (Testing nested list item markdown)
 <br />
 <br />
-(Initial commit to review README markdown styling, README document to be updated and ammended further in the future)
+(README document to be updated and ammended further in the future)
