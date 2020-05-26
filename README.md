@@ -34,7 +34,7 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 > __ALL of the below requirements must be met.__
 
 > * Your project is responsive to different devices and/or browser sizes and improves the user experience in some way  
-> > * We will look at your app on a desktop screen and a mobile device to see what changes occur<br /><br />
+> > * We will look at your app on a desktop screen and a mobile device to see what changes occur<br />
 > > * We must be able to see the change that your code is making on your website - a media query can be written correctly but have no actual effect. That will not be ok in this class.
 
 (README document to be updated and ammended further in the future)
