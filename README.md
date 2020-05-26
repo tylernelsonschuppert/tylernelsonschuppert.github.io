@@ -12,15 +12,15 @@ One of the requirements for the project is to include a README (this README) in 
 The 3 features I have chosen as well as an explanation for the implementation of each feature are as follows:
 
 > A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
-    - (Testing nested list item markdown)
+- (Testing nested list item markdown)
 
 
 > Create and populate a JavaScript array, then retrieve and display one or more values from it
-    - (Testing nested list item markdown)
+- (Testing nested list item markdown)
 
 
 > Import Bootstrap from a CDN and use its column system to create a responsive design
-    - (Testing nested list item markdown)
+- (Testing nested list item markdown)
 
 
 (Initial commit to review README markdown styling, README document to be updated and ammended further in the future)
