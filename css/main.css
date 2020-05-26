@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+/* Generic Document Properties */
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,25 +15,25 @@ body {
     min-width: 380px;
 }
 
-.about {
-    content:"";
-    top:0;
-    height:100vh; /* fix for mobile browser address bar appearing disappearing */
-    left:0;
-    right:0;
-    z-index:-1; /* needed to keep in the background */
-    background: url(../img/mountains.jpg) center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+.floatleft { float: left; }
+
+.floatright { float: right; }
+
+.d-flex { display: flex; }
+
+/* Navbar Properties */
 
 .navbar {
     color: white;
     font-family: "Pathway Gothic One";
     min-width: 380px;
+    -webkit-box-shadow: 0 0 3px 1px #6d6d6d;
+    -moz-box-shadow: 0 0 3px 1px #6d6d6d;
+    box-shadow: 0 0 3px 1px #6d6d6d;
+    z-index: 10000;
+    background-color: rgb(0, 0, 0, 1);
 }
+
 .nav-link, .navbar-brand {
     color: white;
     cursor: pointer;
@@ -52,9 +54,7 @@ body {
     font-size: 16pt;
 }
 
-.navbar-collapse {
-    justify-content: flex-end;
-}
+.navbar-collapse { justify-content: flex-end; }
 
 .custom-toggler.navbar-toggler { 
     border-color: white;
@@ -65,19 +65,23 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
 }
 
-h2.rowlabel {
-    font-size: 19pt;
-    font-family: "Pathway Gothic One";
-    text-transform: uppercase;
-    color: white;
-    padding: 5px 10px 5px 30px;
-    display: inline-block;
-    margin: 5px 10px 5px 0px;
+/* Landing Page Properties */
+
+.about {
+    content:"";
+    top:0;
+    height:100vh; /* fix for mobile browser address bar appearing disappearing */
+    left:0;
+    right:0;
+    z-index:-1; /* needed to keep in the background */
+    background: url(../img/mountains.jpg) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#headlinediv {
-    min-height: calc(100vh - 79px);
-}
+#headlinediv { min-height: calc(100vh - 79px); }
 
 #headlineparagraph {
     color: white;
@@ -94,33 +98,26 @@ div.headline {
     bottom: 32%;
 }
 
-.downarrow {
-    font-size: 4rem;
+.typed-cursor{
+    font-size: 28px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
 }
 
-table.skills {
-    padding: 15px;
-    margin-bottom: 14px;
-    font-size: 12pt;
+.downarrow { font-size: 4rem; }
+
+/* Generic Section Label/Header Properties */
+
+h2.rowlabel {
+    font-size: 19pt;
+    font-family: "Pathway Gothic One";
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 10px 5px 30px;
     display: inline-block;
-    border-spacing: 0px;
-    border-collapse: separate; 
-    border-radius: 5px;
-}
-
-td {
-    padding: 0px 50px 0px 0px;
-}
-
-li.skills {
-    padding-bottom: 10px;
-}
-
-div.experiencediv {
-    font-size: 12pt;
-    border-radius: 5px;
-    padding: 15px;
-    margin-bottom: 20px;
+    margin: 5px 10px 5px 0px;
 }
 
 h3.bodyblackheader {
@@ -132,13 +129,31 @@ h3.bodyblackheader {
     font-weight: normal;
 }
 
-.alignleft {
-    float: left;
+.contentheader {
+    -webkit-box-shadow: 0 0 3px 1px #6d6d6d;
+    -moz-box-shadow: 0 0 3px 1px #6d6d6d;
+    box-shadow: 0 0 3px 1px #6d6d6d;
+    background-color: #1A1A1F;
 }
 
-.alignright {
-    float: right;
+a.anchor {
+    display: block;
+    position: relative;
+    top: -82px;
+    visibility: hidden;
 }
+
+/* Sticky Label/Header Properties */
+
+.sticky {
+    position: -webkit-sticky; /* Required for Safari */
+    position: sticky;
+    height: 50px;
+    z-index: 9999;
+    top: 82px;
+}
+
+/* Generic List Properties */
 
 ul.bodylist {
     list-style-type: disc;
@@ -167,6 +182,41 @@ li {
     line-height: 1.4em;
 }
 
+/* All Sections Properties */
+
+.skills,
+.experience,
+.education,
+.certifications {
+    background-color: #011F31;
+}
+
+
+/* Skills Section Properties */
+
+table.skills {
+    padding: 15px;
+    margin-bottom: 14px;
+    font-size: 12pt;
+    display: inline-block;
+    border-spacing: 0px;
+    border-collapse: separate; 
+    border-radius: 5px;
+}
+
+table.skills > tbody > tr > td { padding: 0px 50px 0px 0px; }
+
+/* Experience Section Properties */
+
+div.experiencediv {
+    font-size: 12pt;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Education Section Properties */
+
 div.educationdiv {
     font-size: 12pt;
     padding: 15px 15px 15px 30px;
@@ -179,6 +229,25 @@ div.certificationsdiv {
     padding: 15px 15px 15px 30px;
     margin-bottom: 20px;
     border-radius: 5px;
+}
+
+/* Experience Section Properties */
+
+/* Certifications Section Properties */
+
+.certificationspadding { padding-bottom: calc(100vh - 589px); }
+
+/* Footer Properties */
+
+.footer {
+    height: 92px;
+    background-color: #1A1A1F;
+}
+
+.footerparagraph {
+    font-size: 14px;
+    margin-bottom: 0px;
+    font-family: "Pathway Gothic One";
 }
 
 /* 2D TRANSITIONS */
@@ -198,183 +267,3 @@ div.certificationsdiv {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
-
-.d-flex {
-    display: flex;
-}
-
-.skills,
-.experience,
-.education,
-.certifications {
-    background-color: #011F31;
-}
-
-.rowwrapper {
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-.navbar {
-    z-index: 10000;
-    background-color: rgb(0, 0, 0, 1);
-}
-
-.testcontainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-  
-  }
-
-.navbar {
-    -webkit-box-shadow: 0 0 3px 1px #6d6d6d;
-    -moz-box-shadow: 0 0 3px 1px #6d6d6d;
-    box-shadow: 0 0 3px 1px #6d6d6d;
-}
-
-.sticky {
-  position: -webkit-sticky; /* Required for Safari */
-  position: sticky;
-  height: 50px;
-  z-index: 9999;
-  top: 82px;
-}
-
-.contentheader {
-    -webkit-box-shadow: 0 0 3px 1px #6d6d6d;
-    -moz-box-shadow: 0 0 3px 1px #6d6d6d;
-    box-shadow: 0 0 3px 1px #6d6d6d;
-    background-color: #1A1A1F;
-}
-
-.typed-cursor{
-    font-size: 28px;
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
-a.anchor {
-    display: block;
-    position: relative;
-    top: -82px;
-    visibility: hidden;
-}
-
-.footer {
-    height: 92px;
-    background-color: #1A1A1F;
-}
-
-.footerparagraph {
-    font-size: 14px;
-    margin-bottom: 0px;
-    font-family: "Pathway Gothic One";
-}
-
-div #versiontablediv {
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    font-family: "Pathway Gothic One";
-}
-
-#versiontablediv table {
-    display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-#versiontablediv > table > * {
-    font-size: 12px;
-    color:white;
-}
-
-#versiontablediv > table > caption {
-    caption-side: top;
-    text-justify: center;
-    text-align: center;
-    padding-bottom: 0px;
-    padding-top: 5px;
-}
-
-#versiontablediv > table > tbody > tr > td:nth-child(1) {
-    padding-right: 15px;
-} 
-
-#versiontablediv > table > tbody > tr > td:nth-child(2) {
-    padding-right: 0px;
-} 
-
-.certificationspadding {
-    padding-bottom: calc(100vh - 589px);
-}
-/*
-@media screen and (max-width: 768px) {
-    .sitetestpdiv {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .sitetestvtparentdiv {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 20px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .sitetestpdiv {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    }
-    .sitetestvtparentdiv {
-        display: flex;
-        align-items: center;
-        justify-content: none;
-    }
-}*/
-
-
-
-/*
-@media screen and (max-width: 768px) {
-    div #versiontablediv {
-        padding-bottom: 20px;
-    }
-    .certificationspadding {
-        padding-bottom: calc(100vh - 685px);
-    }
-    #versiontablediv table {
-        display: inline-block;
-        margin-left: 10px;
-        margin-right: 10px;
-        padding-top: 0px;
-    }
-    .footerparagraph {
-        display: block;
-        text-align: center;
-        padding: 10px 20px 0px 0px;
-    }
-    .footerversiondiv {
-        justify-content: none;
-        align-items: none;
-        display: block;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .footerversiondiv {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .footerparagraph {
-        display: inline;
-        text-align: none;
-        padding: 10px 20px 0px 0px;
-    }
-}*/
