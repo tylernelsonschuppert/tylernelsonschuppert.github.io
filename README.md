@@ -10,7 +10,7 @@ One of the requirements for the project is to include a README (this README) in 
 <br />
 <br />
 
-> __Choose a minimum of 3 of the below features and incorporate into your site.__
+> __Feature Requirements:<br />Choose a minimum of 3 of the below features and incorporate into your site.__
 
 > * A navigation menu that collapses into a “hamburger” expandable menu on mobile devices and is fully displayed on a desktop-size screen
 
@@ -31,7 +31,7 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 <br />
 <br />
 
-> __ALL of the below requirements must be met.__
+> __Additional Requirements<br />ALL of the below requirements must be met.__
 
 > * Your project is responsive to different devices and/or browser sizes and improves the user experience in some way
 > > * We will look at your app on a desktop screen and a mobile device to see what changes occur<br />
