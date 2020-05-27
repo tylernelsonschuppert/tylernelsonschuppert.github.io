@@ -91,6 +91,8 @@ The project code is uploaded to my GitHub account in its own repository, to date
 
 (README to be updated and ammended in the future)
 
+<br />
+
 > Naming your project
 > > Choose a name for your GitHub repo that is relevant to the subject of your project. Do not name your repo "CodeLouisvilleProject" or similar. Choose a name based on what your project is about. For example “Brian’s House of Pancakes”, “Personal Portfolio Site”, etc
 
