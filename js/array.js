@@ -27,7 +27,6 @@ footerContent[21] = "r";
 footerContent[22] = "t";
 
 // Create function to iterate array, concatinate array elements into a String, identify destination parent elements, and create and apply child elements
-
 function applyContent() {
     content = "";
     for(i = 0; i < footerContent.length; i++) {
@@ -42,5 +41,4 @@ function applyContent() {
 }
 
 // Running the function
-
 applyContent();

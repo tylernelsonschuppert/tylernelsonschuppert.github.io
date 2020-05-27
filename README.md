@@ -109,3 +109,23 @@ I chose to head the README file with "Tyler Nelson-Schuppert's Portfolio Website
 > > Swapping the color of your font or changing a background image/color is not demonstrating an improved experience and will not count.<br /><br />
 > > Setting a width, such as 100% width on an image, that causes the content area to scale with the screen will NOT meet this requirement<br /><br />
 > > You do not have to account for all possible devices and browser sizes, just demonstrate some responsive layout principles
+
+The site is coded to improve user experience through responsiveness.  This helps the site to be accessible by a variety of devices primarily through rearranging content.  The Bootstrap CSS framework combined with flexbox and float techniques provides the foundation for the layout and responsiveness of the site.
+
+<br />
+
+> GitHub
+> > If you choose to host your application on a live URL, great! You can share that for demonstration purposes or ease of running - and this is encouraged! But your code must still be available on GitHub for review.
+> > Check out GitHub pages (https://pages.github.com/) for a quick way to host your site
+> > Yes, GitHub is a requirement. It’s not just how we find and view your project, it’s a critical skill you need to understand. Not having your project checked in on GitHub will result in not completing the class.
+
+The site is hosted via GitHub Pages and can be accessed at a live URL:  https://www.tylernelsonschuppert.com/
+
+The URL indicated above in its entirety is the correct URL to used if the site is accessed this way.
+
+All of the site code is publicly available via the GitHub repository at https://www.github.com/tylernelsonschuppert/tylernelsonschuppert.github.io/
+
+Side Note:  GitHub Pages does not support wildcard SSL certificates so a certificate error may be experienced if a different domain or URL is used (such as if you use HTTP instead of HTTPS, or do not include the leading ```www.``` in the URL).  There is no official way around this outside of migrating to a separate hosting provider, although I have attempted to use GitHub Pages to generate multiple certificates to resolve this, so it may be a non-issue.
+
+<br />
+
