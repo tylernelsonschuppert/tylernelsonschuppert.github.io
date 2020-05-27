@@ -39,12 +39,12 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 
 The project is responsive to different devices and browser sizes.  The user experience is improved because the site is responsive to account for different screen sizes by automatically adjusting content layout.  View and navigation of the website has been tested and confirmed on a variety of mobile and desktop devices including:
 
-iPhone 11 (Screen Size: 6.1", Res.: 1792x828, 326 ppi)
-iPhone XS MAX (Screen Size: 6.5", Res: 2688x1242, 458 ppi)
-iPad Pro (2nd gen.) (Screen Size: 10.5", Res: 2224x1668, 264 ppi)
-MacBook Pro 2017 (Screen Size: 13.3", Res: 2560x1600, 227 ppi)
-MacBook Pro 2018 (Screen Size: 13.3", Res: 2560x1600, 227 ppi)
-HP Pavilion 22cwa 1080p IPS LED External Display (Screen Size: 21.5", Res: 1920x1080, 102 ppi)
+iPhone 11 (Screen Size: 6.1", Res.: 1792x828, 326 ppi)<br />
+iPhone XS MAX (Screen Size: 6.5", Res: 2688x1242, 458 ppi)<br />
+iPad Pro (2nd gen.) (Screen Size: 10.5", Res: 2224x1668, 264 ppi)<br />
+MacBook Pro 2017 (Screen Size: 13.3", Res: 2560x1600, 227 ppi)<br />
+MacBook Pro 2018 (Screen Size: 13.3", Res: 2560x1600, 227 ppi)<br />
+HP Pavilion 22cwa 1080p IPS LED External Display (Screen Size: 21.5", Res: 1920x1080, 102 ppi)<br />
 LG 27UK850-W 4K UHD IPS HRD10 External Display (Screen Size: 27", Res: 3840x2160, 163 ppi)
 
 <br />
@@ -78,3 +78,15 @@ The project code contains comments documenting major sections.  This is true thr
 The project code is uploaded to my GitHub account in its own repository, to date with 100+ commits.  (https://github.com/tylernelsonschuppert/tylernelsonschuppert.github.io/) 
 
 <br />
+<br />
+<br />
+
+> __Clarifications and Commonly Asked Questions:__
+
+> Naming your project
+> > Choose a name for your GitHub repo that is relevant to the subject of your project. Do not name your repo "CodeLouisvilleProject" or similar. Choose a name based on what your project is about. For example “Brian’s House of Pancakes”, “Personal Portfolio Site”, etc
+
+The GitHub repo is titled ```tylernelsonschuppert.github.io``` for functional reasons.  This naming convention is required to utilize GitHub Pages, which is the hosting platform for the public website.  It is not possible for me to retain GitHub Pages as a hosting platform and create a custom name for the repository deviating from that convention.
+
+I chose to head the README file with "Tyler Nelson-Schuppert's Portfolio Website" to be descriptive and specific about the purpose of the project.
+
