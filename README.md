@@ -18,7 +18,7 @@ The website features a nav menu that is fully displayed on desktop-sized screens
 
 > Create and populate a JavaScript array, then retrieve and display one or more values from it
 
-Multiple JavaScript files are used for the website, however the specific file ```js/array.js``` fulfills this requirement.
+Multiple JavaScript files are used for the website, however the specific file ```/js/array.js``` fulfills this requirement.
 
 The code executed in this file creates (declares) a JavaScript array then individually populates (initializes) the first 23 elements of the array with String Data Type values.
 
@@ -37,7 +37,15 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 > > We will look at your app on a desktop screen and a mobile device to see what changes occur<br /><br />
 > > We must be able to see the change that your code is making on your website - a media query can be written correctly but have no actual effect. That will not be ok in this class.
 
-(README document to be updated and ammended further in the future)
+The project is responsive to different devices and browser sizes.  The user experience is improved because the site is responsive to account for different screen sizes by automatically adjusting content layout.  View and navigation of the website has been tested and confirmed on a variety of mobile and desktop devices including:
+
+iPhone 11 (Screen Size: 6.1", Res.: 1792x828, 326 ppi)
+iPhone XS MAX (Screen Size: 6.5", Res: 2688x1242, 458 ppi)
+iPad Pro (2nd gen.) (Screen Size: 10.5", Res: 2224x1668, 264 ppi)
+MacBook Pro 2017 (Screen Size: 13.3", Res: 2560x1600, 227 ppi)
+MacBook Pro 2018 (Screen Size: 13.3", Res: 2560x1600, 227 ppi)
+HP Pavilion 22cwa 1080p IPS LED External Display (Screen Size: 21.5", Res: 1920x1080, 102 ppi)
+LG 27UK850-W 4K UHD IPS HRD10 External Display (Screen Size: 27", Res: 3840x2160, 163 ppi)
 
 <br />
 
@@ -45,7 +53,7 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 > > The CSS must be included in its own file, not “in-line” on your HTML page - we want to see that you can properly “link” a stylesheet<br /><br />
 > > Many of the options in the first requirement will also fulfil this requirement
 
-(README document to be updated and ammended further in the future)
+The project includes many custom-written CSS elements (selectors, classes, etc.) located in an external css stylesheet ```/css/main.css```.
 
 <br />
 
@@ -53,7 +61,7 @@ Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column 
 > > Script tags in your HTML file must execute the JS file<br /><br />
 > > Many of the options in the first requirement will also fulfil this requirement
 
-(README document to be updated and ammended further in the future)
+The project includes JavaScript in several separate .js files located under the ```/js/``` folder.  ```array.js``` was written by me to fulfill a JavaScript array project requirement above, ```navbar.js``` was written by me to solve a bug where clicking on a nav link in an expanded nav menu within a mobile layout doesn't close the nav menu, ```scrollreveal.js``` references a separately linked JavaScript library and is used for element animation (examples for using the library were found and adjusted by me, then used in the file), and ```typed.js``` also utilizes a separately linked JavaScript library - containing examples from the Typed.JS project which were implemented by me to style elements.
 
 <br />
 
