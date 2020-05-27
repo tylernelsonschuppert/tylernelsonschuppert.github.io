@@ -128,4 +128,9 @@ All of the site code is publicly available via the GitHub repository at https://
 Side Note:  GitHub Pages does not support wildcard SSL certificates so a certificate error may be experienced if a different domain or URL is used (such as if you use HTTP instead of HTTPS, or do not include the leading ```www.``` in the URL).  There is no official way around this outside of migrating to a separate hosting provider, although I have attempted to use GitHub Pages to generate multiple certificates to resolve this, so it may be a non-issue.
 
 <br />
+<br />
+<br />
+
+> __Testing Your Project__
+> > You should test your project on another computer by having someone else obtain and run your project. Several projects in the past have failed to meet requirements because it was written in a way that only worked on that person's computer and not the reviewer's. Your project reviewer will not be responsible for tracking down why your project does not work and this may result in a failed project.
 
