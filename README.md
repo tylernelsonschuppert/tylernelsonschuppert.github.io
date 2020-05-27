@@ -26,7 +26,7 @@ Afterwards, a JavaScript function is defined and executed.  The function declare
 
 > Import Bootstrap from a CDN and use its column system to create a responsive design
 
-Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column system is used to create a responsive design for the website.  Several parent Rows and child Column sets are defined and styled to organize the content.  The design is responsive, meaning that multiple columns within a row collapse into a single column depending on the screen size of the device viewing the web page, resulting in a website which is accessible across a variety of devices.
+Code in the index.html file imports Bootstrap from a CDN.  The Bootstrap column system is used to create a responsive design for the website.  Several container, row, and column sets are defined and styled to organize the content.  The design is responsive, meaning that multiple columns within a row collapse into a single column depending on the screen size of the device viewing the web page, resulting in a website which is accessible across a variety of devices.
 <br />
 <br />
 <br />
@@ -89,7 +89,9 @@ The project code is uploaded to my GitHub account in its own repository, to date
 >> If all the minimum requirements are met, your project passes<br /><br />
 >> We are looking to ensure you understand what you wrote, so a poorly implemented project may still not pass if we believe you do not understand the code
 
-(README to be updated and ammended in the future)
+Git can be used to clone the project to a local machine where the index.html file can be opened to view the site.  This is how I work on and view the site myself.
+
+The website can also be viewed publicly at https://www.tylernelsonschuppert.com/ if desired.  The subdomain ```www.tylernelsonschuppert.com``` is a CNAME DNS alias for ```tylernelsonschuppert.github.io``` which points directly to the repository.
 
 <br />
 
@@ -100,3 +102,10 @@ The GitHub repo is titled ```tylernelsonschuppert.github.io``` for functional re
 
 I chose to head the README file with "Tyler Nelson-Schuppert's Portfolio Website" to be descriptive and specific about the purpose of the project.
 
+<br />
+
+> Responsive Design
+> > Your site/app must improve user experience with its responsive design, such as making the page easier to view or read, rearranging content, swapping in different assets, etc.<br /><br />
+> > Swapping the color of your font or changing a background image/color is not demonstrating an improved experience and will not count.<br /><br />
+> > Setting a width, such as 100% width on an image, that causes the content area to scale with the screen will NOT meet this requirement<br /><br />
+> > You do not have to account for all possible devices and browser sizes, just demonstrate some responsive layout principles
