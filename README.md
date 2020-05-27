@@ -61,20 +61,20 @@ The project includes many custom-written CSS elements (selectors, classes, etc.)
 > > Script tags in your HTML file must execute the JS file<br /><br />
 > > Many of the options in the first requirement will also fulfil this requirement
 
-The project includes JavaScript in several separate .js files located under the ```/js/``` folder.  ```array.js``` was written by me to fulfill a JavaScript array project requirement above, ```navbar.js``` was written by me to solve a bug where clicking on a nav link in an expanded nav menu within a mobile layout doesn't close the nav menu, ```scrollreveal.js``` references a separately linked JavaScript library and is used for element animation (examples for using the library were found and adjusted by me, then used in the file), and ```typed.js``` also utilizes a separately linked JavaScript library - containing examples from the Typed.JS project which were implemented by me to style elements.
+The project includes JavaScript in several separate .js files located under the ```/js/``` folder.  ```array.js``` was written by me to fulfill a JavaScript array project requirement above, ```navbar.js``` was written by me to solve a bug where clicking on a nav link in an expanded nav menu within a mobile layout doesn't close the nav menu, ```scrollreveal.js``` references a separately linked JavaScript library and is used for element animation (examples for using the library were found and adjusted by me, then used in the file), and ```typed.js``` also utilizes a separately linked JavaScript library - containing examples which were implemented by me to style elements.
 
 <br />
 
 > Your code have comments that document major sections of your code to make it easier to read<br />
 > > You don’t need to go crazy on this - a few code comments are perfectly fine
 
-(README document to be updated and ammended further in the future)
+The project code contains comments documenting major sections.  This is true throughout the HTML, CSS, and JS files.
 
 <br />
 
 > Your project code is uploaded to your GitHub account, in its own repository, with at least 5 commits<br />
 > > We need to see that you’ve used Git to update your GitHub profile at least 5 times
 
-(README document to be updated and ammended further in the future)
+The project code is uploaded to my GitHub account in its own repository, to date with 100+ commits.  (https://github.com/tylernelsonschuppert/tylernelsonschuppert.github.io/) 
 
 <br />
