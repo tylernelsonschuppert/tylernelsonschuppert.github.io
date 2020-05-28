@@ -121,7 +121,7 @@ The site is coded to improve user experience through responsiveness.  This helps
 
 The site is hosted via GitHub Pages and can be accessed at a live URL:  https://www.tylernelsonschuppert.com/
 
-The URL indicated above in its entirety is the correct URL to used if the site is accessed this way.
+The URL indicated above in its entirety is the correct URL to use if the site is accessed this way.
 
 All of the site code is publicly available via the GitHub repository at https://www.github.com/tylernelsonschuppert/tylernelsonschuppert.github.io/
 
