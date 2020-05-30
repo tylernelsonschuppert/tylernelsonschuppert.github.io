@@ -134,13 +134,13 @@ h2.rowlabel {
     font-family: "Pathway Gothic One";
     text-transform: uppercase;
     color: white;
-    padding: 5px 10px 5px 30px;
+    padding: 5px 10px 5px 20px;
     display: inline-block;
     margin: 5px 10px 5px 0px;
 }
 
 h3.bodyblackheader {
-    font-size: 14pt;
+    font-size: 12pt;
     margin-top: 0px;
     margin-bottom: 10px;
     margin-left: 0px;
@@ -189,7 +189,7 @@ ul.bodylist {
     margin-left: 18px;
     margin-right: 0px;
     padding: 0;
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 400;
 }
 
@@ -200,7 +200,7 @@ ul.bodylistindented {
     margin-left: 30px;
     margin-right: 0px;
     padding: 0;
-    font-size: 12pt;
+    font-size: 10pt;
     font-weight: 400;
 }
 
@@ -230,15 +230,19 @@ li {
 /*****************************/
 table.skills {
     padding: 15px;
-    margin-bottom: 14px;
-    font-size: 12pt;
+    margin-bottom: 20px;
+    font-size: 10pt;
     display: inline-block;
     border-spacing: 0px;
     border-collapse: separate; 
     border-radius: 5px;
+    box-shadow: 0 0 3px 1px #6d6d6d;
+    margin-top: 20px;
 }
 
 table.skills > tbody > tr > td { padding: 0px 50px 0px 0px; }
+
+table.skills:hover { box-shadow: 0 0 5px 2px #6d6d6d; }
 /*****************************/
 /*****************************/
 
@@ -250,8 +254,23 @@ div.experiencediv {
     font-size: 12pt;
     border-radius: 5px;
     padding: 15px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 3px 1px #6d6d6d;
 }
+
+div.experiencediv:hover { box-shadow: 0 0 5px 2px #6d6d6d; }
+
+@media only screen and (max-width: 767px) {
+    .breakpoint-item6-bottommargin {
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width: 767px) {
+    .breakpoint-item1-bottommargin {
+        margin-bottom: 20px;
+    }
+}
+
 /*********************************/
 /*********************************/
 
@@ -261,17 +280,14 @@ div.experiencediv {
 /********************************/
 div.educationdiv {
     font-size: 12pt;
-    padding: 15px 15px 15px 30px;
-    margin-bottom: 20px;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 15px 20px 15px;
     border-radius: 5px;
+    box-shadow: 0 0 3px 1px #6d6d6d;
 }
 
-div.certificationsdiv {
-    font-size: 12pt;
-    padding: 15px 15px 15px 30px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
+div.educationdiv:hover { box-shadow: 0 0 5px 2px #6d6d6d; }
+
 /********************************/
 /********************************/
 
@@ -279,7 +295,20 @@ div.certificationsdiv {
 /*************************************/
 /* Certifications Section Properties */
 /*************************************/
-.certificationspadding { padding-bottom: calc(100vh - 589px); }
+.certificationspadding { padding-bottom: calc(100vh - 576px); }
+
+
+div.certificationsdiv {
+    font-size: 12pt;
+    padding: 15px 15px 15px 15px;
+    margin: 20px 15px 20px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 1px #6d6d6d;
+}
+
+div.certificationsdiv:hover {
+    box-shadow: 0 0 5px 2px #6d6d6d;
+}
 /*************************************/
 /*************************************/
 
