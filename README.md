@@ -6,7 +6,7 @@ This website was hand-coded by me while participating in a Front-End Web Develop
 
 It should be noted that all of the code in this repository is best reviewed by cloning the repository onto a local workstation.
 
-After building this repository and the code within, I ported the code to a Wordpress theme, deployed a local instance of Wordpress in Docker containers on VMware infrastructure, and then migrated that Wordpress instance to the AWS cloud.  Both the URLs https://www.tylernelsonschuppert.com/ and https://tylernelsonschuppert.github.io/ point to the Wordpress instance in AWS as of 07/16/20.
+After building this repository and the code within, I ported the code to a Wordpress theme, deployed a local instance of Wordpress in Docker containers on VMware infrastructure, and then migrated that Wordpress instance to the AWS cloud.  Both the URLs https://www.tylernelsonschuppert.com/ and https://tylernelsonschuppert.github.io/ point to the Wordpress instance in AWS as of 07/16/20.  The future intention is to create another separate repository for the Wordpress theme which was based on this project, however also includes a significant amount of PHP code and is also dependant on a back-end database (unlike this project).
 
 One of the requirements for the project is to include a README (this README) in the respective GitHub repository detailing fullfillment of all project feature requirements.  I will acknowledge and elaborate on fullfilment of the project requirements (as specified by the Front-End Development Project Requirements document) below:
 <br />
