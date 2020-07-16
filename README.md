@@ -1,10 +1,11 @@
+
 # Tyler Nelson-Schuppert's Portfolio Website
 
 Hello, my name is Tyler Nelson-Schuppert.  If you are a human reading this - thank you for taking the time to look at the README file for my GitHub Repository.  This GitHub repository manages the code used for my professional portfolio website.  The focus of this website is to feature a publicly viewable forum marketing my resume and projects to potential employers and colleagues.
 
 This website was hand-coded by me while participating in a Front-End Web Development boot-camp based in Louisville, KY hosted by an organization named "Code Lousville".  This GitHub Repository (and the associated Website) are being submitted by me to Code Louisville to fulfill project-specific requirements for completion of the Code Louisville Front-End Web Development program.
 
-It should be noted that all of the code in this repository is best reviewed by cloning the repository onto a local workstation.
+It should be noted that all of the code in this repository is best reviewed by cloning the repository onto a local workstation and opening index.html locally.
 
 After building this repository and the code within, I ported the code to a Wordpress theme, deployed a local instance of Wordpress in Docker containers on VMware infrastructure, and then migrated that Wordpress instance to the AWS cloud.  Both the URLs https://www.tylernelsonschuppert.com/ and https://tylernelsonschuppert.github.io/ point to the Wordpress instance in AWS as of 07/16/20.  The future intention is to create another separate repository for the Wordpress theme which was based on this project, however also includes a significant amount of PHP code and is also dependant on a back-end database (unlike this project).
 
